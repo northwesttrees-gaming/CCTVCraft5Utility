@@ -1,0 +1,33 @@
+name: Translation
+description: Help us improve translation using this template.
+"labels": ["Translation"]
+type: translation
+body:
+ - type: dropdown
+   attributes:
+    label: Language
+    description: Language of your translation.
+    options:
+     - EN_US (English)
+     - AR_SA (Arabic)
+     - NL_NL (Dutch)
+     - FR_FR (French)
+     - DE_DE (German)
+     - PT_PT (Portuguese)
+     - ES_ES (Spanish)
+   validations:
+     required: true
+ - type: input
+   attributes:
+     label: Language Resource Key
+     description: "The resource key in the localization file."
+     placeholder: "eg: item.cctvcraft_utility.aluminum_solar_panel"
+   validations:
+     required: true
+ - type: input
+   attributes:
+     label: Translation
+     description: "Your translation of this key."
+     placeholder: "Aluminum Solar Panel"
+   validations:
+     required: true
