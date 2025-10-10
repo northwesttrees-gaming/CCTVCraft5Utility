@@ -9,7 +9,7 @@ Unlike traditional implementations, the energy and fluid systems in this mod are
 
 | | |
 | --- | --- |
-| | **NBT Variables:** Core energy and fluid data are stored using NeoForge NBT variables, handling essential properties such as storage, maximum send, maximum receive, and maximum capacity. This ensures consistent and reliable data management across all utility-based blocks and systems. |
+| ![NBT](https://raw.githubusercontent.com/northwesttrees-gaming/CCTVCraft5Utility/refs/heads/main/pages/curseforge_icon_nbt.png) | **NBT Variables:** Core energy and fluid data are stored using NeoForge NBT variables, handling essential properties such as storage, maximum send, maximum receive, and maximum capacity. This ensures consistent and reliable data management across all utility-based blocks and systems. |
 | | **Grid Classes:** Grid classes provide separation between independent utility grids, allowing multiple systems to coexist without interference. This enables modular designs and supports advanced network configurations. |
 | | **Socket Support:** Energy sockets enable per-tile side connections, meaning each side of a block can have its own unique connection state. These configurations can be dynamically updated through scripts, providing flexibility for automation and custom behavior. |
 | | **Modding Commands:** The mod provides a set of modding commands that let you tap into the same internal systems we use for our own blocks. These range from simple operations, such as configuring NBT variables, to more complex mechanics like transferring energy and fluids between blocks. |
